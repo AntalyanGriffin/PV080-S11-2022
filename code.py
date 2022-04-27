@@ -31,7 +31,6 @@ def fetch_website(urllib_version, url):
     return r.data
 
 
-
 @app.route("/")
 def index():
     version = flask.request.args.get("urllib_version")
